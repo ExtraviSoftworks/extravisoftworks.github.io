@@ -66,8 +66,18 @@ main
   padding: 150px;
 }
 
+@media (max-width: 978px)
+{
+  main{
+    padding: 15px;
+  }
+}
+
 .section img 
 {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
   max-width: 100%;
   height: auto;
   border-radius: 12px;
